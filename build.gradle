@@ -16,7 +16,10 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.czechitas.java1:turtle-engine:1.0.1")
+    implementation("com.miglayout:miglayout-swing:5.0")
+    implementation("net.sevecek:sevecek-net-utils:0.9.1")
+    implementation files('libs/turtle-engine-1.0.1.jar')
+    //implementation("dev.czechitas.java1:turtle-engine:1.0.1")
 }
 
 application {
